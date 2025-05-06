@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -18,74 +18,56 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./qr-screenshot.jpg)
+![QR Code Component Screenshot](./images/qr-screenshot.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://qr-component-k84laudnc-ikers-projects-c645f0c8.vercel.app)
+- Live Site URL: [Visit the Web Project](https://qr-component-k84laudnc-ikers-projects-c645f0c8.vercel.app)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- External Assets
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Include assets from external sources:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<link rel="stylesheet" href="https://fonts.gooleapis.com/css?family=Outfit" />
 ```
+
+Using flexbox for item positioning
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+  max-width: 320px;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+On the next projects i will like to focus and work on the layout design, using Grids and Flexbox. Also, i would like to implement pseudo-classes and pseudo-elements.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+These two sources from w3schools.com have been really helpfull while coding my solution. They have a clear index, easy to use search input, and try yourself web coding solution.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [css with w3schools](https://www.w3schools.com/css/default.asp)
+- [html with w3schools](https://www.w3schools.com/html/default.asp)
+- Full Stack Developer Curriculum - [free code camp](https://www.freecodecamp.org/learn/full-stack-developer/)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Iker Lopez Iribas](https://www.ikerloir35.work)
+- Frontend Mentor - [@ikerloir35](https://www.frontendmentor.io/profile/ikerloir35)
+- Linkedin - [@ikeloir](https://www.linkedin.com/in/ikerloir)
